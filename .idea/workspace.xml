@@ -5,46 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87bf8cb7-5de0-4090-986b-c14587f226fa" name="Changes" comment="premier commit">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 2/Encodage_partie_2_Fichiers/fMotsencode.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 3/Classes/Demo get et set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 3/Classes/Livre.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 3/Classes/Main Livre.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 3/Classes/Main Point.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 3/Classes/Main Rectangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 3/Classes/Main set et get.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 3/Classes/Rectangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 4/Employe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 4/Exerice_classe_employe.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 4/Main Employe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Prog orientée objet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Prog orientée objet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 1/Exercice révision 1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 1/Exercice révision 1/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 1/Exercice révision 1/.idea/Exercice révision 1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 1/Exercice révision 1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 1/Exercice révision 1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 1/Exercice révision 1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 2/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 2/.idea/Semaine 2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 2/Encodage_partie_2_Fichiers/EncodageFichiers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Semaine 2/Encodage_partie_2_Fichiers/EncodageFichiers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 2/ExS14.2 - Fichiers/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 2/ExS14.2 - Fichiers/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 2/ExS14.2 - Fichiers/.idea/S14-Seb.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 2/ExS14.2 - Fichiers/.idea/dictionaries/info1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 2/ExS14.2 - Fichiers/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 2/ExS14.2 - Fichiers/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 3/.idea/Semaine 3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 3/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semaine 3/Classes/Point.py" beforeDir="false" afterPath="$PROJECT_DIR$/Semaine 3/Classes/Point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semaine 4/Diagramme UML Livre.vsdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semaine 4/Exercice4.1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semaine 4/Livre.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semaine 4/Main Livre.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semaine 4/~$$Diagramme UML Livre.~vsdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutionnaires du prof/Employe_Solution2/Classe_Employe2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutionnaires du prof/Employe_Solution2/main2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutionnaires du prof/Employe_solution1/Employe_solution1/Classe_Employe1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutionnaires du prof/Employe_solution1/Employe_solution1/main1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Semaine 3/Classes/Point.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Semaine 3/Classes/Rectangle.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Semaine 4/Employe.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Semaine 4/Livre.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Semaine 4/Main Employe.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
@@ -85,37 +57,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Employe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EncodageFichiers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Livre.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main Employe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main Employé.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main Livre.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main Point.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main Rectangle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Point.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Voiture.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Cégep/H24/Prog orientée objet&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Employe.executor": "Run",
+    "Python.EncodageFichiers.executor": "Run",
+    "Python.Livre.executor": "Run",
+    "Python.Main Employe.executor": "Run",
+    "Python.Main Employé.executor": "Run",
+    "Python.Main Livre.executor": "Run",
+    "Python.Main Point.executor": "Run",
+    "Python.Main Rectangle.executor": "Run",
+    "Python.Point.executor": "Run",
+    "Python.Voiture.executor": "Run",
+    "Python.main1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/Cégep/H24/Prog orientée objet",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "application.passwordSafe",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Cégep\H24\Prog orientée objet\Semaine 4" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main1">
     <configuration name="Main Rectangle" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Prog orientée objet" />
       <option name="ENV_FILES" value="" />
@@ -139,6 +112,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Prog orientée objet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Solutionnaires du prof/Employe_solution1/Employe_solution1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Solutionnaires du prof/Employe_solution1/Employe_solution1/main1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -163,7 +164,7 @@
       <workItem from="1707937361423" duration="1275000" />
       <workItem from="1707938646806" duration="248000" />
       <workItem from="1707938901894" duration="58000" />
-      <workItem from="1707938999473" duration="375000" />
+      <workItem from="1707938999473" duration="6340000" />
     </task>
     <task id="LOCAL-00001" summary="premier commit">
       <option name="closed" value="true" />
@@ -173,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707144654100</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="premier commit">
+      <option name="closed" value="true" />
+      <created>1707939415250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707939415250</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +201,7 @@
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Livre.coverage" NAME="Main Livre Coverage Results" MODIFIED="1707744854712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$Livre.coverage" NAME="Livre Coverage Results" MODIFIED="1707407566748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Employé.coverage" NAME="Main Employé Coverage Results" MODIFIED="1707744826368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$main1.coverage" NAME="main1 Coverage Results" MODIFIED="1707942132313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Solutionnaires du prof/Employe_solution1/Employe_solution1" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$Point.coverage" NAME="Point Coverage Results" MODIFIED="1707339385547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Point.coverage" NAME="Main Point Coverage Results" MODIFIED="1707341621520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$EncodageFichiers.coverage" NAME="EncodageFichiers Coverage Results" MODIFIED="1707340568297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 2/Encodage_partie_2_Fichiers" />
