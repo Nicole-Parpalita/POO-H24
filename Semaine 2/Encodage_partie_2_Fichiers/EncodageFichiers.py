@@ -4,6 +4,9 @@ tpl_lettres = (('A','B','C','D','E','F','G','H','I'),   #tpl_lettres[0]
                ('J','K','L','M','N','O','P','Q','R'),   #tpl_lettres[1]
                ('S','T','U','V','W','X','Y','Z'))       #tpl_lettres[2]
 
+
+
+
 #fonction pour uniformiser : ôter les accents.
 #paramèetre : le mot à uniformiser
 #retourne le mot sans les accents
@@ -16,6 +19,8 @@ def uniformiser(mot):
     for i in range(0, len(accents)):
         mot = mot.replace(accents[i], lettres[i])  # boucle pour remplacer tous les accents par des lettres normales
     return mot
+
+
 
 #fonction pour encoder un mot
 #paramètre : le mot à encoder
@@ -33,6 +38,9 @@ def encoder(mot):
             code += (tpl_lettres[2].index(c) + 1) * 100
     return code
 
+
+
+
 #fonction pour encoder une liste de mots
 #paramètre : la liste de mots à encoder
 #retourne une liste de codes correspondants aux mots
@@ -41,6 +49,9 @@ def encoderListe(liste):
     for mot in liste:
         ls_codes.append(encoder(mot))
     return ls_codes
+
+
+
 
 # menu principal
 while True :
@@ -73,3 +84,40 @@ while True :
                 print("Essaye encore")
     else:
         break
+
+
+
+
+# Partie 2
+# 1.Lire le fichier texte et mettre tous les mots dans une liste.
+ls_fMots = []
+dt_fMots = {}
+
+try:
+    with open("fMots.txt", "r") as f:
+        f.readlines()
+        for line in f:
+            ls_fMots.append(line)
+        for mot in ls_fMots:
+            mot_encode = encoder(mot)
+            dt_fMots[mot] = mot_encode
+
+        with open("fMotsencode.txt", "w", encoding= "utf-8") as f:
+            for paire in dt_fMots:
+                f.write(paire)
+
+
+except FileNotFoundError:
+    print("Le fichier n'a pas été trouvé.")
+    sys.exit()
+
+
+
+
+
+
+
+
+
+
+
