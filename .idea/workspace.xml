@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87bf8cb7-5de0-4090-986b-c14587f226fa" name="Changes" comment="premier commit">
-      <change afterPath="$PROJECT_DIR$/Semaine 4/Diagramme UML Livre.vsdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 4/Exercice4.1.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 4/Livre.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 4/Main Livre.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 4/~$$Diagramme UML Livre.~vsdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutionnaires du prof/Employe_Solution2/Classe_Employe2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutionnaires du prof/Employe_Solution2/main2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutionnaires du prof/Employe_solution1/Employe_solution1/Classe_Employe1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutionnaires du prof/Employe_solution1/Employe_solution1/main1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="87bf8cb7-5de0-4090-986b-c14587f226fa" name="Changes" comment="Commit après Employe et avant Livre">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examens/Examen 1/Classe_Compte.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examens/Examen 1/Informations_comptes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examens/Examen 1/Laboratoire_note1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examens/Examen 1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Prog orientée objet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Prog orientée objet.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semaine 4/~$$Diagramme UML Livre.~vsdx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +30,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Examens/Examen 1/Classe_Compte.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Examens/Examen 1/Informations_comptes.txt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Examens/Examen 1/main.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Semaine 2/Encodage/encodage.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Semaine 2/Encodage_partie_2_Fichiers/EncodageFichiers.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Semaine 3/Classes/Demo get et set.py" root0="SKIP_INSPECTION" />
@@ -70,9 +70,11 @@
     "Python.Main Rectangle.executor": "Run",
     "Python.Point.executor": "Run",
     "Python.Voiture.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.main1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "E:/Cégep/H24/Prog orientée objet",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -88,7 +90,7 @@
       <recent name="E:\Cégep\H24\Prog orientée objet\Semaine 4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main1">
+  <component name="RunManager">
     <configuration name="Main Rectangle" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Prog orientée objet" />
       <option name="ENV_FILES" value="" />
@@ -164,7 +166,8 @@
       <workItem from="1707937361423" duration="1275000" />
       <workItem from="1707938646806" duration="248000" />
       <workItem from="1707938901894" duration="58000" />
-      <workItem from="1707938999473" duration="6340000" />
+      <workItem from="1707938999473" duration="6426000" />
+      <workItem from="1708009353016" duration="5992000" />
     </task>
     <task id="LOCAL-00001" summary="premier commit">
       <option name="closed" value="true" />
@@ -182,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707939415250</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit après Employe et avant Livre">
+      <option name="closed" value="true" />
+      <created>1707946784167</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707946784167</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,18 +202,20 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="premier commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="premier commit" />
+    <MESSAGE value="Commit après Employe et avant Livre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit après Employe et avant Livre" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Employe.coverage" NAME="Main Employe Coverage Results" MODIFIED="1707937623580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 4" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$Voiture.coverage" NAME="Voiture Coverage Results" MODIFIED="1707334080020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$Employe.coverage" NAME="Employe Coverage Results" MODIFIED="1707748485211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 4" />
-    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Rectangle.coverage" NAME="Main Rectangle Coverage Results" MODIFIED="1707937557647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
-    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Livre.coverage" NAME="Main Livre Coverage Results" MODIFIED="1707744854712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
-    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Livre.coverage" NAME="Livre Coverage Results" MODIFIED="1707407566748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
-    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Employé.coverage" NAME="Main Employé Coverage Results" MODIFIED="1707744826368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$main.coverage" NAME="main Coverage Results" MODIFIED="1708015281931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examens/Examen 1" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$main1.coverage" NAME="main1 Coverage Results" MODIFIED="1707942132313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Solutionnaires du prof/Employe_solution1/Employe_solution1" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$Point.coverage" NAME="Point Coverage Results" MODIFIED="1707339385547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Employe.coverage" NAME="Main Employe Coverage Results" MODIFIED="1707937623580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 4" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Rectangle.coverage" NAME="Main Rectangle Coverage Results" MODIFIED="1707937557647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Livre.coverage" NAME="Main Livre Coverage Results" MODIFIED="1707744854712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Employé.coverage" NAME="Main Employé Coverage Results" MODIFIED="1707744826368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Livre.coverage" NAME="Livre Coverage Results" MODIFIED="1707407566748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Point.coverage" NAME="Main Point Coverage Results" MODIFIED="1707341621520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$EncodageFichiers.coverage" NAME="EncodageFichiers Coverage Results" MODIFIED="1707340568297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 2/Encodage_partie_2_Fichiers" />
   </component>
