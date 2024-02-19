@@ -75,6 +75,10 @@ class Livre:
             self._disponible = True
             return self._disponible
 
+        def afficher_nombre_livres(self):
+            return f"Le nombre de livres instanciés est de {Livre.nb_livres}."
+
+
         def __str__(self):
             """
             Méthode magique
