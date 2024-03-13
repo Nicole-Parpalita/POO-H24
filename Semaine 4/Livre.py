@@ -4,6 +4,7 @@ class Livre:
     """
     # Attribut de classe
     nb_livres = 0
+    _ls_livres = []
     def __init__(self, id_unique: str = "XXXXXXXXXXXXX", titre: str = "", auteur: str = "",
                  annee_publication: int = 2000, disponible: bool = True):
         """
@@ -20,8 +21,9 @@ class Livre:
         self._titre = titre
         self._auteur = auteur
         self._annee_publication = annee_publication
-        self._disponible = disponible
+        self._disponible = True
         Livre.nb_livres += 1
+        Livre._ls_livres.append(self)
 
         # Propriété de l'ISBN
         def _get_id_unique(self):
@@ -68,8 +70,11 @@ class Livre:
             """
             Change la disponibilité du livre
             """
-            self._disponible = False
-            return self._disponible
+            if self._disponible:
+                print(f"Le livre '{self._titre}' a été emprunté.")
+                self._disponible = False
+            else:
+                print(f"Le livre '{self._titre}' n'est pas disponible.")
 
         def retourner(self):
             self._disponible = True

@@ -4,6 +4,7 @@ class Personne:
     """
     # Attribut de classe
     ls_personnes = []
+    dict_personnes = {}
     def __init__(self, num_ass_soc: str = "", nom: str = "", age: int = 0):
         """
         Constructeur de la classe Personne
@@ -12,8 +13,18 @@ class Personne:
         """
         self.num_ass_soc = num_ass_soc
         self.nom = nom
-        self.age = age
+        self._age = age
         Personne.ls_personnes.append(self)
+        Personne.dict_personnes[self.num_ass_soc] = self
+
+    def _get_age(self):
+        return self._age
+
+    def _set_age(self, v_age):
+        if isinstance(v_age, int) and v_age > 0:
+            self._age = v_age
+
+    age = property(_get_age, _set_age)
 
     def __str__(self):
         return f"Le nom de la personne est {self.nom} et son âge est de {self.age} ans."
@@ -41,6 +52,12 @@ class Personne:
 
     @classmethod
     def trouver_personnes_majeures(cls):
-        for element in cls.ls_personnes:
-            if element.est_majeur == True:
-                return element
+        for instance in cls.ls_personnes:
+            if instance.age >= 18:
+                print(instance.nom)
+
+    @classmethod
+    def trouver_personnes_majeures2(cls):
+        for num_ass_soc, personne in cls.dict_personnes.items():
+            if personne.age >= 18:
+                print(personne.nom)
