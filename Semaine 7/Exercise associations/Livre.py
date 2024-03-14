@@ -4,7 +4,8 @@ class Livre:
     """
     Classe qui décrit un livre
     """
-    def __init__(self, p_isbn: str = "", p_titre: str = "", p_auteur: Auteur = None):
+
+    def __init__(self, p_isbn: str = "", p_titre: str = "", p_ls_auteurs : list[Auteur] = []):
         """
         Constructeur de la classe Livre
         :param p_isbn: L'ISBN du livre
@@ -13,4 +14,17 @@ class Livre:
         """
         self.isbn = p_isbn
         self.titre = p_titre
-        self.auteur = p_auteur
+        self.ls_auteurs = p_ls_auteurs
+
+    def __str__(self):
+        """
+        Retourne le titre du livre
+        """
+        return f"{self.titre}"
+
+    def afficher_auteurs(self):
+        """
+        Affiche les auteurs du livre
+        """
+        for auteur in self.ls_auteurs:
+            print(auteur.nom, auteur.prenom)
