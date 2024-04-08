@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87bf8cb7-5de0-4090-986b-c14587f226fa" name="Changes" comment="Commit qt designer">
-      <change afterPath="$PROJECT_DIR$/Semaine 10/Exercice interface/classe_Etudiant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semaine 10/Exercice interface/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="87bf8cb7-5de0-4090-986b-c14587f226fa" name="Changes" comment="Commit labo interface">
+      <change afterPath="$PROJECT_DIR$/Semaine 10/Exercice interface/Code main/ajouter_cours_dialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semaine 10/Exercice interface/Code main/boite_dialogue_Ajouter_cours.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semaine 10/Exercice interface/Code main/classe_Cours.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semaine 10/Exercice interface/Code main/classe_Etudiant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semaine 10/Exercice interface/Code main/interface_gestion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semaine 10/Exercice interface/Code main/liste_etudiants.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semaine 10/Exercice interface/Code main/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semaine 10/Exercice interface/Interfaces QT/boite_dialogue_Ajouter_cours.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semaine 10/Exercice interface/Interfaces QT/interface_gestion.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semaine 10/Exercice interface/classe_Etudiant.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semaine 10/Exercice interface/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +41,11 @@
     <setting file="file://$PROJECT_DIR$/Examens/Examen_intra_2356641/JoueurSoccer.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Examens/Examen_intra_2356641/Match.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Examens/Examen_intra_2356641/main.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Semaine 10/Exercice interface/classe_Etudiant.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Semaine 10/Exercice interface/interface_gestion.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Semaine 10/Exercice interface/main.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Semaine 10/Exercice interface/Code main/ajouter_cours_dialog.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Semaine 10/Exercice interface/Code main/boite_dialogue_Ajouter_cours.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Semaine 10/Exercice interface/Code main/classe_Cours.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Semaine 10/Exercice interface/Code main/interface_gestion.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Semaine 10/Exercice interface/Code main/main.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Semaine 2/Encodage/encodage.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Semaine 2/Encodage_partie_2_Fichiers/EncodageFichiers.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Semaine 3/Classes/Demo get et set.py" root0="SKIP_INSPECTION" />
@@ -76,51 +86,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.pytest for test_Main Personne.test_age.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_Main Personne.test_age_invalide.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_Main Personne.test_age_valide.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_Main Personne.test_feter_anniversaire.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Auteur.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Classe_Vetement.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Employe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EncodageFichiers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Livre.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main Employe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main Employé.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main Livre.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main Personne.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main Point.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main Rectangle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Personne.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Point.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Voiture.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mon_interface_graphique.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Cégep/H24/Prog orientée objet&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.pytest for test_Main Personne.test_age.executor": "Run",
+    "Python tests.pytest for test_Main Personne.test_age_invalide.executor": "Run",
+    "Python tests.pytest for test_Main Personne.test_age_valide.executor": "Run",
+    "Python tests.pytest for test_Main Personne.test_feter_anniversaire.executor": "Run",
+    "Python.Auteur.executor": "Run",
+    "Python.Classe_Vetement.executor": "Run",
+    "Python.Employe.executor": "Run",
+    "Python.EncodageFichiers.executor": "Run",
+    "Python.Livre.executor": "Run",
+    "Python.Main Employe.executor": "Run",
+    "Python.Main Employé.executor": "Run",
+    "Python.Main Livre.executor": "Run",
+    "Python.Main Personne.executor": "Run",
+    "Python.Main Point.executor": "Run",
+    "Python.Main Rectangle.executor": "Run",
+    "Python.Personne.executor": "Run",
+    "Python.Point.executor": "Run",
+    "Python.Voiture.executor": "Run",
+    "Python.ajouter_cours_dialog.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main1.executor": "Run",
+    "Python.mon_interface_graphique.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/Cégep/H24/Prog orientée objet",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Cégep\H24\Prog orientée objet\Semaine 10\Exercice interface\Code main" />
       <recent name="E:\Cégep\H24\Prog orientée objet\Semaine 10\Exercice interface" />
       <recent name="E:\Cégep\H24\Prog orientée objet\Semaine 4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="Main Rectangle" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Prog orientée objet" />
       <option name="ENV_FILES" value="" />
@@ -153,7 +165,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.9 (Exercice applicatif Étudiant 1)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Semaine 10/Exercice interface" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -276,7 +287,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
       </set>
     </attachedChunks>
   </component>
@@ -317,7 +328,8 @@
       <workItem from="1712239852519" duration="26000" />
       <workItem from="1712239979671" duration="4576000" />
       <workItem from="1712421675949" duration="2667000" />
-      <workItem from="1712505198224" duration="1902000" />
+      <workItem from="1712505198224" duration="2022000" />
+      <workItem from="1712577804314" duration="6146000" />
     </task>
     <task id="LOCAL-00001" summary="premier commit">
       <option name="closed" value="true" />
@@ -479,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711641176476</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Commit labo interface">
+      <option name="closed" value="true" />
+      <created>1712507164047</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712507164047</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,34 +529,36 @@
     <MESSAGE value="Commit 20/03/2024 Code apparts exemple exam" />
     <MESSAGE value="Commit Examen intra" />
     <MESSAGE value="Commit qt designer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit qt designer" />
+    <MESSAGE value="Commit labo interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit labo interface" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Appartement_py$mon_interface_graphique.coverage" NAME="mon_interface_graphique Coverage Results" MODIFIED="1711640215680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 9" />
-    <SUITE FILE_PATH="coverage/Livre_py$Personne.coverage" NAME="Personne Coverage Results" MODIFIED="1708614940864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 5" />
-    <SUITE FILE_PATH="coverage/interface_gestion_py$main.coverage" NAME="main Coverage Results" MODIFIED="1712507039604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 10/Exercice interface" />
-    <SUITE FILE_PATH="coverage/Prog_orientée_objet$EncodageFichiers.coverage" NAME="EncodageFichiers Coverage Results" MODIFIED="1707340568297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 2/Encodage_partie_2_Fichiers" />
-    <SUITE FILE_PATH="coverage/Livre_py$Auteur.coverage" NAME="Auteur Coverage Results" MODIFIED="1710430062747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 7/Exercise associations" />
-    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Point.coverage" NAME="Point Coverage Results" MODIFIED="1707339385547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
-    <SUITE FILE_PATH="coverage/Livre_py$pytest_for_test_Main_Personne_test_age.coverage" NAME="pytest for test_Main Personne.test_age Coverage Results" MODIFIED="1708617454479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 5" />
-    <SUITE FILE_PATH="coverage/Livre_py$Classe_Vetement.coverage" NAME="Classe_Vetement Coverage Results" MODIFIED="1708547827838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 5" />
-    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Employe.coverage" NAME="Employe Coverage Results" MODIFIED="1707748485211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 4" />
-    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Employé.coverage" NAME="Main Employé Coverage Results" MODIFIED="1707744826368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
-    <SUITE FILE_PATH="coverage/Livre_py$main.coverage" NAME="main Coverage Results" MODIFIED="1710431132279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 7/Exercise associations" />
-    <SUITE FILE_PATH="coverage/Appartement_py$Main_Rectangle.coverage" NAME="Main Rectangle Coverage Results" MODIFIED="1711816309507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
-    <SUITE FILE_PATH="coverage/Livre_py$pytest_for_test_Main_Personne_test_feter_anniversaire.coverage" NAME="pytest for test_Main Personne.test_feter_anniversaire Coverage Results" MODIFIED="1708619304327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 5" />
-    <SUITE FILE_PATH="coverage/Livre_py$Main_Personne.coverage" NAME="Main Personne Coverage Results" MODIFIED="1708616266295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 5" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$Voiture.coverage" NAME="Voiture Coverage Results" MODIFIED="1707334080020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
-    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Livre.coverage" NAME="Livre Coverage Results" MODIFIED="1707407566748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
-    <SUITE FILE_PATH="coverage/Livre_py$pytest_for_test_Main_Personne_test_age_valide.coverage" NAME="pytest for test_Main Personne.test_age_valide Coverage Results" MODIFIED="1708618988370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 5" />
-    <SUITE FILE_PATH="coverage/Prog_orientée_objet$main.coverage" NAME="main Coverage Results" MODIFIED="1708015281931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examens/Examen 1" />
-    <SUITE FILE_PATH="coverage/Livre_py$pytest_for_test_Main_Personne_test_age_invalide.coverage" NAME="pytest for test_Main Personne.test_age_invalide Coverage Results" MODIFIED="1708619055106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 5" />
-    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Point.coverage" NAME="Main Point Coverage Results" MODIFIED="1707341621520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
-    <SUITE FILE_PATH="coverage/Appartement_py$Auteur.coverage" NAME="Auteur Coverage Results" MODIFIED="1711035451207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 7/Exercise associations" />
-    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Employe.coverage" NAME="Main Employe Coverage Results" MODIFIED="1707937623580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 4" />
     <SUITE FILE_PATH="coverage/Appartement_py$main.coverage" NAME="main Coverage Results" MODIFIED="1711816314557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 9" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$main1.coverage" NAME="main1 Coverage Results" MODIFIED="1707942132313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Solutionnaires du prof/Employe_solution1/Employe_solution1" />
+    <SUITE FILE_PATH="coverage/Livre_py$Main_Personne.coverage" NAME="Main Personne Coverage Results" MODIFIED="1708616266295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 5" />
+    <SUITE FILE_PATH="coverage/Livre_py$Classe_Vetement.coverage" NAME="Classe_Vetement Coverage Results" MODIFIED="1708547827838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 5" />
+    <SUITE FILE_PATH="coverage/Appartement_py$mon_interface_graphique.coverage" NAME="mon_interface_graphique Coverage Results" MODIFIED="1711640215680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 9" />
+    <SUITE FILE_PATH="coverage/Livre_py$pytest_for_test_Main_Personne_test_age.coverage" NAME="pytest for test_Main Personne.test_age Coverage Results" MODIFIED="1708617454479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 5" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Employe.coverage" NAME="Main Employe Coverage Results" MODIFIED="1707937623580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 4" />
+    <SUITE FILE_PATH="coverage/Appartement_py$Auteur.coverage" NAME="Auteur Coverage Results" MODIFIED="1711035451207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 7/Exercise associations" />
+    <SUITE FILE_PATH="coverage/interface_gestion_py$ajouter_cours_dialog.coverage" NAME="ajouter_cours_dialog Coverage Results" MODIFIED="1712583715015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 10/Exercice interface/Code main" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Employe.coverage" NAME="Employe Coverage Results" MODIFIED="1707748485211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 4" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$main.coverage" NAME="main Coverage Results" MODIFIED="1708015281931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examens/Examen 1" />
+    <SUITE FILE_PATH="coverage/Livre_py$pytest_for_test_Main_Personne_test_age_valide.coverage" NAME="pytest for test_Main Personne.test_age_valide Coverage Results" MODIFIED="1708618988370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 5" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Point.coverage" NAME="Point Coverage Results" MODIFIED="1707339385547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
+    <SUITE FILE_PATH="coverage/Livre_py$pytest_for_test_Main_Personne_test_feter_anniversaire.coverage" NAME="pytest for test_Main Personne.test_feter_anniversaire Coverage Results" MODIFIED="1708619304327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 5" />
+    <SUITE FILE_PATH="coverage/Livre_py$Personne.coverage" NAME="Personne Coverage Results" MODIFIED="1708614940864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 5" />
+    <SUITE FILE_PATH="coverage/Livre_py$pytest_for_test_Main_Personne_test_age_invalide.coverage" NAME="pytest for test_Main Personne.test_age_invalide Coverage Results" MODIFIED="1708619055106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 5" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Rectangle.coverage" NAME="Main Rectangle Coverage Results" MODIFIED="1707937557647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
     <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Livre.coverage" NAME="Main Livre Coverage Results" MODIFIED="1707744854712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Employé.coverage" NAME="Main Employé Coverage Results" MODIFIED="1707744826368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Livre.coverage" NAME="Livre Coverage Results" MODIFIED="1707407566748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$Main_Point.coverage" NAME="Main Point Coverage Results" MODIFIED="1707341621520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
+    <SUITE FILE_PATH="coverage/Livre_py$main.coverage" NAME="main Coverage Results" MODIFIED="1710431132279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 7/Exercise associations" />
+    <SUITE FILE_PATH="coverage/Livre_py$Auteur.coverage" NAME="Auteur Coverage Results" MODIFIED="1710430062747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 7/Exercise associations" />
+    <SUITE FILE_PATH="coverage/Prog_orientée_objet$EncodageFichiers.coverage" NAME="EncodageFichiers Coverage Results" MODIFIED="1707340568297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 2/Encodage_partie_2_Fichiers" />
+    <SUITE FILE_PATH="coverage/interface_gestion_py$main.coverage" NAME="main Coverage Results" MODIFIED="1712584065501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 10/Exercice interface/Code main" />
+    <SUITE FILE_PATH="coverage/Appartement_py$Main_Rectangle.coverage" NAME="Main Rectangle Coverage Results" MODIFIED="1711816309507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Semaine 3/Classes" />
   </component>
 </project>

@@ -11,6 +11,10 @@ import sys
 #Importer la librairie QtWidgets de QtDesigner.
 from PyQt5 import QtWidgets
 
+from boite_dialogue_Ajouter_cours import Ui_boiteDialog_cours
+
+from ajouter_cours_dialog import Fenetre_ajouter_cours
+
 # créer une classe qui hérite de Qt et de notre ui.
 # Nom de ma classe (demoQt)         # Nom de mon fichier ui
 class demoQt(QtWidgets.QMainWindow, interface_gestion.Ui_MainWindow):
@@ -123,6 +127,15 @@ class demoQt(QtWidgets.QMainWindow, interface_gestion.Ui_MainWindow):
             self.label_message_erreur.setText("Contenu sauvegardé avec succès !")
         except Exception as e:
             print(f"Une erreur s'est produite: {e}")
+
+    @pyqtSlot()
+    def on_pushButton_Creer_cours_clicked(self):
+        """
+        Gestionnaire d'évènements pour le bouton Creer cours
+        """
+        dialog = Fenetre_ajouter_cours()
+        dialog.show()
+        dialog.exec()
 
 # Créer le main qui lance la fenêtre de Qt
 def main():
