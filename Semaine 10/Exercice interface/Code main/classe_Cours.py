@@ -1,3 +1,4 @@
+
 class Cours:
     """
     Classe Cours
@@ -41,6 +42,7 @@ class Cours:
             self._nb_heures = v_nb_heures
 
     nb_heures = property(_get_nb_heures, _set_nb_heures)
+
 
     def __str__(self):
         """

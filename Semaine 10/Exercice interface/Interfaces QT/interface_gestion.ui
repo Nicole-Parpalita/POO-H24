@@ -95,8 +95,8 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>320</y>
-      <width>256</width>
+      <y>370</y>
+      <width>521</width>
       <height>151</height>
      </rect>
     </property>
@@ -126,7 +126,7 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>300</y>
+      <y>350</y>
       <width>251</width>
       <height>16</height>
      </rect>
@@ -349,6 +349,97 @@
     </property>
     <property name="text">
      <string>Créer cours</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Inscrire">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>230</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Associer cours</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Serialiser">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>290</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sérialiser</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ListView">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>290</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ListView</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_AjouterLocal">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>230</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ajouter local</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_AssocierLocal">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>230</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Associer local</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_AfficherLocaux">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>290</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Afficher locaux</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_AfficherCours">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>290</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Afficher cours</string>
     </property>
    </widget>
   </widget>

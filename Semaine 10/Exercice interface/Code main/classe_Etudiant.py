@@ -1,4 +1,5 @@
 from datetime import datetime
+from classe_Cours import Cours
 
 class Etudiant:
     """
@@ -6,7 +7,7 @@ class Etudiant:
     """
     ls_etudiants = []
     def __init__(self, p_num_etudiant: int = 0, p_nom: str = "", p_programme: str = "",
-                 p_date_naissance: datetime = None):
+                 p_date_naissance: datetime = None, p_ls_cours: list = []):
         """
         Constructeur de la classe Etudiant
         :param p_num_etudiant: Le numéro étudiant de l'étudiant
@@ -18,6 +19,7 @@ class Etudiant:
         self._nom = p_nom
         self._programme = p_programme
         self._date_naissance = p_date_naissance
+        self._ls_cours = p_ls_cours
         Etudiant.ls_etudiants.append(self)
 
     def _get_num_etudiant(self):
@@ -52,12 +54,26 @@ class Etudiant:
     def _set_date_naissance(self, v_date_naissance):
         self._date_naissance = v_date_naissance
 
+    def _get_ls_cours(self):
+        return self._ls_cours
+
+    def _set_ls_cours(self, v_ls_cours):
+        self._ls_cours = v_ls_cours
+
+    ls_cours = property(_get_ls_cours, _set_ls_cours)
+
     def afficher_liste_etudiants(cls):
         """
         Affiche les étudiants instanciés dans la classe
         """
         for etudiant in cls.ls_etudiants:
             print(etudiant)
+
+    def associer_cours(self, cours):
+        """
+        Associer un cours à un étudiant
+        """
+        self.ls_cours.append(cours)
 
     def age(self):
         """
@@ -70,6 +86,14 @@ class Etudiant:
             return age
         else:
             return None
+
+    def afficher_ls_cours(self):
+        """
+        Permet d'afficher les cours de l'étudiant
+        """
+        print("Voici les cours de cet étudiant: ")
+        for cours in self._ls_cours:
+            print(cours)
 
     @classmethod
     def chercher_etudiant(cls, numero_etudiant):

@@ -22,7 +22,7 @@ class Fenetre_ajouter_cours(QtWidgets.QDialog, boite_dialogue_Ajouter_cours.Ui_b
             sigle = self.lineEdit_sigle.text()
             nom = self.lineEdit_nom.text()
             nb_heures = self.lineEdit_nb_heures.text()
-            if isinstance(sigle, str) and len(sigle) == 5 and sigle[0].isalpha() and isinstance(nom, str) and len(nom) <= 50 and isinstance(nb_heures, int) and nb_heures > 0:
+            if isinstance(sigle, str) and len(sigle) == 5 and sigle[0].isalpha() and isinstance(nom, str) and len(nom) <= 50:
                 cours = Cours(sigle, nom, nb_heures)
                 Cours.ls_cours.append(cours)
                 self.textBrowser.append(str(cours))
@@ -33,3 +33,5 @@ class Fenetre_ajouter_cours(QtWidgets.QDialog, boite_dialogue_Ajouter_cours.Ui_b
                 self.lineEdit_nb_heures.clear()
         except Exception as e:
             print(f"Une erreur est survenue : {e}")
+
+

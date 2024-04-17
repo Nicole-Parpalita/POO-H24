@@ -15,6 +15,14 @@ from boite_dialogue_Ajouter_cours import Ui_boiteDialog_cours
 
 from ajouter_cours_dialog import Fenetre_ajouter_cours
 
+from listview_dialogue import Ui_Dialog
+
+from dialog_listview import FenetreListView
+
+from PyQt5.QtGui import QStandardItemModel, QStandardItem
+
+from associer_cours_dialog import Fenetreassociercours
+
 # créer une classe qui hérite de Qt et de notre ui.
 # Nom de ma classe (demoQt)         # Nom de mon fichier ui
 class demoQt(QtWidgets.QMainWindow, interface_gestion.Ui_MainWindow):
@@ -136,6 +144,35 @@ class demoQt(QtWidgets.QMainWindow, interface_gestion.Ui_MainWindow):
         dialog = Fenetre_ajouter_cours()
         dialog.show()
         dialog.exec()
+
+    @pyqtSlot()
+    def on_pushButton_ListView_clicked(self):
+        """
+        Gestionnaire d'évènements pour le bouton List View
+        """
+        dialog = FenetreListView()
+        model = QStandardItemModel()
+        dialog.listView.setModel(model)
+        for e in Etudiant.ls_etudiants:
+            item = QStandardItem(e.num_etudiant+" * "+e.nom +" * "+ e.programme)
+            model.appendRow(item)
+        dialog.show()
+        reply = dialog.exec()
+
+    @pyqtSlot()
+    def on_pushButton_Inscrire_clicked(self):
+        """
+        Gestionnaire d'évènemnts pour le bouton Associer cours
+        """
+        print("Bouton Inscrire clicked")
+        dialog = Fenetreassociercours()
+        model = QStandardItemModel()
+        dialog.listView.setModel(model)
+        for e in Etudiant.ls_etudiants:
+            item = QStandardItem(e.num_etudiant + " * " + e.nom + " * " + e.programme)
+            model.appendRow(item)
+        dialog.show()
+        reply = dialog.exec()
 
 # Créer le main qui lance la fenêtre de Qt
 def main():
