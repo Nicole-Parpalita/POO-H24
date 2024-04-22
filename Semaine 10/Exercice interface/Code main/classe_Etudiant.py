@@ -80,12 +80,9 @@ class Etudiant:
         Permet de calculer l'age de l'étudiant instancié
         """
         if self._date_naissance:
-            annee_actuelle = datetime.now().year
-            annee_naissance = self._date_naissance.year
-            age = annee_actuelle - annee_naissance
-            return age
-        else:
-            return None
+            ajd = datetime.date.today()
+            return ajd.year - v_date_naissance.year() - ((ajd.month, ajd.day) <
+                                                         (v_date_naissance.month, v_date_naissance.day))
 
     def afficher_ls_cours(self):
         """
