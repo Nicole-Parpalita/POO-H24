@@ -23,6 +23,8 @@ from PyQt5.QtGui import QStandardItemModel, QStandardItem
 
 from associer_cours_dialog import Fenetreassociercours
 
+from ajouter_local_dialog import FenetreLocal
+
 # créer une classe qui hérite de Qt et de notre ui.
 # Nom de ma classe (demoQt)         # Nom de mon fichier ui
 class demoQt(QtWidgets.QMainWindow, interface_gestion.Ui_MainWindow):
@@ -173,6 +175,12 @@ class demoQt(QtWidgets.QMainWindow, interface_gestion.Ui_MainWindow):
             model.appendRow(item)
         dialog.show()
         reply = dialog.exec()
+
+    @pyqtSlot()
+    def on_pushButton_AjouterLocal_clicked(self):
+        dialog = FenetreLocal()
+        dialog.show()
+        dialog.exec()
 
 # Créer le main qui lance la fenêtre de Qt
 def main():
