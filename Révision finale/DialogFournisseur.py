@@ -5,6 +5,7 @@ from PyQt5.QtCore import pyqtSlot
 import dialog_fournisseur
 import class_Fournisseur
 from class_Patient import Patient
+import os
 
 class FenetreFournisseur(QtWidgets.QDialog, dialog_fournisseur.Ui_Dialog):
     def __init__(self, parent=None):
@@ -83,3 +84,25 @@ class FenetreFournisseur(QtWidgets.QDialog, dialog_fournisseur.Ui_Dialog):
             fournisseur.serialiserFournisseur(fichier_json)
         except Exception as e:
             print(f"Une erreur s'est produite lors de la sérialisation du fournisseur : {str(e)}")
+
+    @pyqtSlot()
+    def on_pushButton_deserialiser_clicked(self):
+        """
+        Gestionnaire d'évènements pour le bouton Désérialiser fournisseur
+        """
+        try:
+            code_fournisseur = self.lineEdit_code_fournisseur.text()
+            fichier_json = f"{code_fournisseur}.json"
+
+            if not os.path.exists(fichier_json):
+                print("Le fichier JSON n'existe pas.")
+                return
+
+            fournisseur = class_Fournisseur.Fournisseur.deserialiserFournisseur(fichier_json)
+
+            for patient in fournisseur.ls_patients:
+                item = QtGui.QStandardItem(str(patient.num_patient))
+                self.model.appendRow(item)
+
+        except Exception as e:
+            print(f"Une erreur s'est produite lors de la désérialisation du fournisseur : {str(e)}")
