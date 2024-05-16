@@ -13,6 +13,8 @@ class Analgesique(M.Medicament):
         super().__init__(p_code_medicament, p_nom_chimique, p_nom_commercial, p_prix, p_categorie)
         self._dose_quot_max = p_dose_quot_max
 
+        M.Medicament.ls_medicaments.append(self)
+
     # Propriétés
     def _get_dose_quot_max(self):
         return self._dose_quot_max

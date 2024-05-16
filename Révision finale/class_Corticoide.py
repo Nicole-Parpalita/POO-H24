@@ -13,6 +13,7 @@ class Corticoide(M.Medicament):
         super().__init__(p_code_medicament, p_nom_chimique, p_nom_commercial, p_prix, p_categorie)
         self.effet_medic = p_effet_medic
 
+        M.Medicament.ls_medicaments.append(self)
 
     # Méthodes
     def __str__(self):

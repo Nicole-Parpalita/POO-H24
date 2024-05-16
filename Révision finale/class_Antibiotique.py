@@ -13,6 +13,8 @@ class Antibiotique(M.Medicament):
         super().__init__(p_code_medicament, p_nom_chimique, p_nom_commercial, p_prix, p_categorie)
         self._duree_prise_max = p_duree_prise_max
 
+        M.Medicament.ls_medicaments.append(self)
+
     # Propriétés
     def _get_duree_prise_max(self):
         return self._duree_prise_max
